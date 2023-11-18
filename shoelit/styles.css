@@ -1,0 +1,386 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #feffe9;
+    font-family: ARIAL, sans-serif;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+nav ul a:hover{
+    font-weight: bold;
+}
+
+nav ul a{
+    color: black;
+}
+
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.tagline{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tagline p{
+    margin-top: 0;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.tagline span{
+    font-size: 60px;
+}
+
+.shoe{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #3FB960;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.footer{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto 0 auto;
+    margin-top: 50px;
+}
+
+.footer p{
+    margin-top: 65px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #feffe9;
+}
+
+.about-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-card {
+    width: 195px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #feffe9;
+    border-radius: 15px;
+
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #555;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #f00; 
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.buy-button {
+    background-color: lightgray;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: whitesmoke; 
+}
+
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+.registration-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.shopping-cart img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.shopping-cart img:hover {
+    opacity: 0.8;
+}
+
+/* Existing styles for the navigation bar (as provided in previous answers) */
+
+/* Style the shopping cart page */
+.cart-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #feffe9;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #feffe9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: #feffe9;
+}
+
+/* Show the dropdown content when the button is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Style the logo container */
+.logo {
+    display: inline-block; /* or use flexbox/grid for positioning */
+}
+
+/* Style the logo image */
+.logo img {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+}
+
+
+.cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Center text and image vertically */
+}
+
+.cart-button img {
+    width: 20px; /* Adjust the image size as needed */
+    height: 20px; /* Adjust the image size as needed */
+    margin-right: 10px; /* Add spacing between image and text */
+}
+
+.cart-button:hover {
+    background-color: #0056b3;
+}
+
+
+
